@@ -3,31 +3,66 @@
     <head>
         <meta charset="UTF-8">
         <title>Otega_Otite</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="./mediaquery.css" />
     </head>
+
     <body>
+        <!-- Header -->
         <header>
-           <nav>
-            <div class="logo">
-                Otega Otite
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Experience</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Skills</a></li>
-                </ul>
-            </div>
-           </nav>
+            <!-- Navigation for desktop view -->
+            <nav id="desktop-nav">
+                <div class="logo">
+                    Otega Otite
+                </div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Navigation for mobile view -->
+            <nav id="mobile-nav">
+                <div class="logo">
+                    Otega Otite
+                </div>
+                <div class="menu">
+                    <div class="menu-icon" onclick="toggleMenu()">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <div>
+                        <ul class="menu-links">
+                            <li><a href="#home" onClick="toggleMenu()">Home</a></li>
+                            <li><a href="#about" onClick="toggleMenu()">About</a></li>
+                            <li><a href="#experience" onClick="toggleMenu()">Experience</a></li>
+                            <li><a href="#service" onClick="toggleMenu()">Service</a></li>
+                            <li><a href="#contact" onClick="toggleMenu()">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
         
+        <!-- Main -->
+        <main>
+            <section>
 
+            </section>
+        </main>
 
-
+        <!-- Footer -->
+        <footer>
+            <div class="footer">
+                <p>&copy; 2021 Otega Otite</p>
+            </div>
+        </footer>
         <script src="index.js"></script>
     </body>
 </html>
