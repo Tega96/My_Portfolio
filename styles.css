@@ -395,3 +395,22 @@ article .icon {
     gap: 0.5rem;
     margin: 1rem;
 }
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contain-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2.5rem;
+}
+
+/* FOOTER */
+footer {
+    height: 20vh;
+    margin: 0 1rem;
+}
+
